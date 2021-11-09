@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+.column {
+  float: left;
+  width: 20%;
+}
+.column2 {
+  float: center;
+  width: 20%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.link{
+  background-color: bisque;
+  color: black;
+  padding: 1em 1.5em;
+  text-decoration: activeborder;
+  text-transform: uppercase;
+  font-family:'Times New Roman';
+  font-weight:800;
+  
+}
+.link:hover {
+    font-family:Times New Roman;
+    color:white; 
+    text-decoration:none;
+    background-color: darkorange;
+    font-size: medium; 
+}
+#header {
+    width:1024px;
+    font-family:sans-serif;
+    font-size:+3;
+    text-align:center;
+    color:#0066CC;
+    font-weight:bold;;
+}
+
+#menu {
+    background:#ffffff;
+    width:175px;
+	text-align: center;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.myButton {
+    background-color: #18449E;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 3px solid #0B193B;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Times New Roman;
+    font-size: 15px;
+    padding: 6px 51px;
+    padding-left:50px;
+    padding-right:100px;
+    text-decoration: none;
+    text-shadow: 0px -1px 49px #2f6627;
+    height:30px;
+    width:100px;
+}
+.myButton:hover {
+	background-color:#2659CF;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+table {
+	background: bisque;
+}
+
+td.left_column {
+	width: 175px;
+	padding-left: 1px;
+	padding-right: 2px;
+}
+
+td.right_column {
+	width: 840px;
+	padding-left: 5px;
+}
+
+td.vertical_lign {
+	background: #000000;
+	width: 1px;
+}
+
+a:link {
+  	color: #4e6d9b;
+  	text-decoration: none; 
+}
+
+a:visited {
+  	color: #4e6d9b;
+  	text-decoration: none; 
+}
+
+a:hover {
+  	color: #4e6d9b;
+  	text-decoration: none;
+	cursor: pointer;
+}
+
+a:active {
+  	color: #000000;
+  	text-decoration: none; 
+}
